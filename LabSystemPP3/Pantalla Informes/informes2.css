@@ -1,0 +1,63 @@
+.container {
+width:100%;
+}
+.contenido-central {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+#encabezado {
+    width: 100%;
+    background-color: #3d5e7f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+#encabezado h1 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+/* Estilo para el contenedor del gráfico */
+.chart-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+asp\:Chart {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+/* Personalización del gráfico */
+.chart-container .asp-Chart {
+    border: none;
+    height:100%;
+    width:100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.chart-container .asp-Chart .ChartArea {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}

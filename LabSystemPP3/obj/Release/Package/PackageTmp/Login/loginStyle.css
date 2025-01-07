@@ -1,0 +1,88 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #2c3e50;
+    }
+
+    .login-container label {
+        font-size: 14px;
+        color: #2c3e50;
+    }
+
+    .login-container input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+        .login-container input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        a.btn-ingresar {
+            display: inline-block;
+            width: 100%;
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+
+        .login-container button:hover {
+            background-color: #16a085;
+        }
+
+    .login-container .remember-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .login-container .footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .login-container .footer a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+            .login-container .footer a:hover {
+                text-decoration: underline;
+            }

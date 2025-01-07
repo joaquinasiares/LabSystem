@@ -1,0 +1,141 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+    .section h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+/* Labels and Details */
+.detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .detail asp\:Label {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+        .detail asp\:Label:last-child {
+            font-weight: normal;
+        }
+
+/* GridView Styling */
+asp\:GridView {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+    asp\:GridView th, asp\:GridView td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    asp\:GridView th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    asp\:GridView tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    asp\:GridView tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/* DropDownList */
+asp\:DropDownList {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+asp\:Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+    asp\:Button:hover {
+        background-color: #0056b3;
+    }
+
+/* File Upload */
+asp\:FileUpload {
+    margin-top: 10px;
+    display: block;
+}
+
+/* CheckBox */
+asp\:CheckBox {
+    margin-top: 10px;
+}
+
+/* UpdatePanel Labels */
+asp\:Label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    asp\:GridView th, asp\:GridView td {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

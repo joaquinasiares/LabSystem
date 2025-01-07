@@ -1,0 +1,138 @@
+/* Estilos generales */
+#conteiner {
+    width: 100%;
+    max-width: 1500px;
+    max-height:900px;
+    margin: auto;
+    padding: 20px;
+    overflow:auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight:bold;
+}
+.datosCli1 {
+    font-weight:bold;
+    font-size:20px;
+}
+.datosCliente, #direccion,
+#ProductosServicio,
+.grid-container,
+#panel2, fechaServicio, empleado, facturas, consumoInterno, descPedido 
+{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+#descPedido button {
+    margin:2px;
+    padding:5px;
+}
+
+    .datosCliente label,
+    #ProductosServicio label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #495057;
+    }
+
+    .datosCliente input[type="text"],
+    .datosCliente input[type="number"],
+    .datosCliente textarea,
+    #ProductosServicio input[type="text"],
+    #ProductosServicio input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+textarea {
+    resize: vertical;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover,
+    input[type="button"]:hover,
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+.grid-container h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.lista {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .lista th,
+    .lista td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .lista th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .lista tr:hover {
+        background-color: #f1f1f1;
+    }
+
+#panel2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.calendar-container {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+    .calendar-container .aspNetCalendar {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+#btnAgregarP {
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 15px;
+    color: #fff;
+}
+
+    #btnAgregarP:hover {
+        background-color: #218838;
+    }

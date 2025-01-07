@@ -1,0 +1,181 @@
+﻿/* Estilo general */
+* {
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Opcional, evita scroll extra */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contenido-central {
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Ajuste más moderado */
+    box-sizing: border-box; /* Asegura que el padding no altere el tamaño total */
+    width: 100%;
+    background-color: #f7f7f7;
+    overflow-y: hidden;
+}
+
+#encabezado {
+    position: sticky; /* Se mantiene visible en la parte superior durante el scroll */
+    font-family: sans-serif;
+    background-color: #2c3e50; /* Fondo sólido para destacar */
+    color: white;
+    outline: 1px solid #2c3e50;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Línea para distinguir el encabezado */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 0;
+    margin-bottom:10px;
+}
+
+    #encabezado h1 {
+        font-size: 40px;
+        color: white;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    #encabezado label {
+        display: inline-block;
+        margin: 5px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+.contenido-flex {
+    display: flex; /* Aplica flexbox para las dos secciones (grid y descPedido) */
+    gap: 20px; /* Espacio entre los dos contenedores */
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+/* Estilos para las grillas */
+.grid-container {
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.grid-container-pedido {
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Grilla de datos */
+.lista {
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+    background-color: #f5f5f5;
+}
+
+    .lista th, .lista td {
+        padding: 12px 15px;
+        text-align: left;
+        border: none; /* Elimina los bordes */
+    }
+
+    .lista th {
+        background-color: #3d5e7f;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        border-bottom: 2px solid #cfd8dc; /* Línea inferior más sutil para la cabecera */
+    }
+
+    .lista tr:hover {
+        background-color: #e1f1f7;
+    }
+
+    .lista td {
+        color: #333;
+        border-bottom: 1px solid #e0e0e0; /* Línea sutil entre las filas */
+    }
+
+
+/* Descripción del pedido */
+#descPedido {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width: 25%; /* Ajusta el tamaño del contenedor de la descripción */
+    height:100vh;
+    background-color: #f1f1f1; /* Opcional: agrega un fondo para diferenciar la sección */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional: agrega sombra */
+    overflow:auto;
+}
+
+    #descPedido label,
+    #descPedido input,
+    #descPedido button {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+        #descPedido input[type="number"] {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+    #descPedido button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        #descPedido button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+/* Estilo para el resumen y totales */
+.datosCli {
+    font-weight: bold;
+}
+
+    .datosCli + label {
+        font-weight: normal;
+        color: #555;
+    }
+
+
+.centro-centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Ajuste más moderado */
+    box-sizing: border-box; /* Asegura que el padding no altere el tamaño total */
+    width: 100vw;
+    height: 100vh;
+    overflow:auto;
+    background-color:aqua;
+}

@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="LabSystemPP3.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="/MasterPageEstilo/MasterPageEstilo.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <form runat="server">
+        <div class="container">
+
+                <div class="sidebar">
+                    <h2 class="titulo"><span style="font-weight: bold;">LAB</span>SYSTEM</h2>
+                    <div class="menu">
+                        <a href="/Default"><i class="fas fa-home"></i>Inicio</a>
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/PantallaCliente/GestorClientes.aspx"><i class="fas fa-users"></i> Gestor de Clientes</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/PantallaProveedores/GestorProveedores.aspx"><i class="fas fa-truck"></i>Gestor de Proveedores</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/PantallaProductos/GestorProductos.aspx"> <i class="fas fa-box"></i>Gestor de Productos</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/PantallaPedido/ListadoPedidos.aspx"><i class="fas fa-receipt"></i>Gestor de Pedido</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/PantallaPedidoServicio/ListadoPedidoServicios.aspx"><i class="fas fa-tools"></i>Gestor Pedido de servicio</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/PantallaVenta/ListaVentasCliente.aspx"><i class="fas fa-shopping-cart"></i>Ventas</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/PantallaCompra/GestorCompra.aspx"><i class="fas fa-money-bill"></i>Compras</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pantalla Informes/GestorInformes.aspx"><i class="fas fa-chart-bar"></i>Ver Informes</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/PantallaEmpleados/GestorEmpleados.aspx"><i class="fas fa-id-badge"></i>Ver Empleados</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/PantallaUsuarios/GestorUsuario.aspx"><i class="fas fa-id-badge"></i>Ver Usuarios</asp:HyperLink>
+                        <asp:LinkButton ID="LinkButton1" CssClass="btn-logout" runat="server" OnClick="LinkButton1_Click"><i class="fas fa-sign-out-alt"></i>Cerrar sesión</asp:LinkButton>
+                       
+
+                    </div>
+                </div>
+    
+
+                <div class="contenido-central">
+                   <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+       
+                        
+
+                    </asp:ContentPlaceHolder>
+                </div>
+
+        </div>
+        </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

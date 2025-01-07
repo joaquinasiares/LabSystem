@@ -1,0 +1,132 @@
+/* Estilo general */
+.contenido-central {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column
+}
+
+/* Encabezado del pedido */
+#encabezadoPedido {
+    width: 95%;
+    background-color: #3d5e7f;
+    padding: 20px;
+    color: white;
+    outline: 2px solid #2c3e50;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-family: sans-serif;
+}
+
+    #encabezadoPedido h1 {
+        font-size: 40px;
+        color: white;
+        margin: 0;
+        margin-bottom: 15px;
+        font-family: 'Times New Roman';
+    }
+
+    #encabezadoPedido label {
+        display: inline-block;
+        margin: 5px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+/* Grilla de productos */
+#grillaProductos1 {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+    /* Contenedor con scroll */
+    #grillaProductos1 .scroll-container {
+        max-height: 700px; /* Ajusta la altura máxima según necesites */
+        overflow-y: auto;
+    }
+
+    #grillaProductos1 .asp-GridView {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #grillaProductos1 th,
+    #grillaProductos1 td {
+        padding: 5px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    #grillaProductos1 th {
+        background-color: #3d5e7f;
+        color: white;
+        font-size: 1.3em;
+    }
+
+    #grillaProductos1 td {
+        font-size: 0.95em;
+        background-color: #f8f8f8;
+    }
+
+
+/* Descripción del pedido margin-left: 200px; */
+#descPedido {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #3d5e7f;
+}
+
+    #descPedido label,
+    #descPedido input,
+    #descPedido button {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+        #descPedido input[type="number"] {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+    #descPedido button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        #descPedido button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+/* Estilo para el resumen y totales */
+.datosCli {
+    font-weight: bold;
+}
+
+    .datosCli + label {
+        font-weight: normal;
+        color: #555;
+    }
+
+
+.centro-centro {
+    display: flex;
+    flex-direction: row;
+    width:90%;
+}

@@ -1,0 +1,450 @@
+﻿/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Ajuste más moderado */
+    box-sizing: border-box; /* Asegura que el padding no altere el tamaño total */
+    width: 85%;
+    height: 1700px;
+    background-color: white;
+}
+
+.encabezado {
+    position: sticky; /* Se mantiene visible en la parte superior durante el scroll */
+    top: 0;
+    z-index: 10; /* Se asegura de estar por encima del resto del contenido */
+    font-family: sans-serif;
+    /*background-color: #2c3e50;  Fondo sólido para destacar */
+    color: white;
+    width: 35%;
+    padding: 10px;
+    /* Línea para distinguir el encabezado */
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .encabezado h1 {
+        /* Estilo para el título principal de la gestión de empleados */
+        font-family: 'Arial', sans-serif; /* Fuente profesional y limpia */
+        font-size: 28px; /* Tamaño adecuado para un título */
+        font-weight: bold; /* Negrita para destacar */
+        color: #2c3e50; /* Azul oscuro profesional */
+        text-align: center; /* Centrado en la página */
+        margin: 10px 0; /* Espaciado arriba y abajo */
+        padding: 10px; /* Espaciado interno */ /* Espaciado entre letras */
+        text-transform: uppercase; /* Texto en mayúsculas */
+        border-radius: 5px; /* Bordes redondeados */
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+
+    .encabezado label {
+        display: inline-block;
+        margin: 5px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Inp {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .search-button:hover {
+        background-color: #218838;
+    }
+/* Grillas */
+.grid-container {
+    flex: 1;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+.grid-container-1{
+    flex: 1;
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Contenedor principal */
+.datos-venta {
+    font-family: Arial, sans-serif;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width:85%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .datos-venta h3 {
+        font-size: 1.7em;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 2px dashed black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.grid-container h3 {
+    font-size: 1.7em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px dashed black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+   
+    .datos-venta br {
+        margin-bottom: 10px;
+    }
+.lblDetalle {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    margin:2px auto;
+    font-family:'Times New Roman', Times, serif;
+}
+#empleadoVenta {
+margin:15px auto;
+width:100%;
+height:120px;
+}
+    #empleadoVenta .dp {
+        font-family: Arial, sans-serif; /* Fuente moderna */
+        color: #333; /* Color del texto */
+        background-color: #fff; /* Fondo blanco */
+        border: 1px solid #ccc; /* Borde sutil */
+        border-radius: 4px; /* Bordes redondeados */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        appearance: none; /* Elimina los estilos predeterminados */
+        cursor: pointer; /* Cursor de selección */
+        transition: all 0.3s ease;
+        width: 100%;
+    }
+#empleadoVenta h3{
+    font-size: 1.7em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px dashed black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#mediosPago {
+    margin: 15px auto;
+    width: 100%;
+    height: 300px;
+}
+#mediosPago .dp {
+    font-family: Arial, sans-serif; /* Fuente moderna */
+    color: #333; /* Color del texto */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    appearance: none; /* Elimina los estilos predeterminados */
+    cursor: pointer; /* Cursor de selección */
+    transition: all 0.3s ease;
+    width: 100%;
+}
+    #mediosPago h3 {
+        font-size: 1.7em;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 2px dashed black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.btnAgregarFacturas {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+/* Estilos para las grillas */
+.lista {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    .lista th {
+        background-color: #007BFF;
+        color: white;
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .lista td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        color: #555;
+    }
+
+    .lista tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .lista tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/* Estilos para DropDownList */
+.datos-venta select {
+    width: 200px;
+    padding: 6px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para FileUpload y Botón */
+.datos-venta input[type="file"] {
+    margin: 10px 0;
+}
+
+.datos-venta input[type="button"],
+.datos-venta button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+    .datos-venta input[type="button"]:hover,
+    .datos-venta button:hover {
+        background-color: #218838;
+    }
+
+/* Estilo adicional para botones en grillas */
+.lista button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .lista button:hover {
+        background-color: #0056b3;
+    }
+
+
+.boton-agregar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .boton-agregar input {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .boton-agregar input:hover {
+            background-color: #45a049;
+        }
+
+/* Contenido Inferior */
+/* Contenedor principal */
+.contenido-inferior {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    .contenido-inferior h3 {
+        font-size: 1.7em;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 2px dashed black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+/* Título de la sección */
+#datos-registro h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+/* CheckBox y TextBox */
+.datos-registro input[type="checkbox"] {
+    margin: 10px 5px 10px 0;
+    transform: scale(1.2); /* Hace más grande el checkbox */
+    cursor: pointer;
+}
+
+.datos-registro input[type="date"] {
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    width: 50%;
+}
+
+/* Botón de registrar venta */
+.boton-agregar {
+    margin-top: 15px;
+    text-align: left;
+}
+
+    .boton-agregar input[type="submit"],
+    .boton-agregar button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .boton-agregar input[type="submit"]:hover,
+        .boton-agregar button:hover {
+            background-color: #218838;
+        }
+
+/* Mensaje de resultado */
+.section {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+    .section label {
+        display: block;
+        font-size: 1em;
+        color: #333;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+/* Contenedor personalizado para el FileUpload */
+.file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre elementos */
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    /* Efecto hover */
+    .file-upload:hover {
+        border-color: #007bff;
+        background-color: #f0f8ff;
+    }
+
+    /* Input file oculto */
+    .file-upload input[type="file"] {
+        display: none; /* Ocultar el input original */
+    }
+
+    /* Estilo del botón personalizado */
+    .file-upload label {
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        /* Efecto hover del botón */
+        .file-upload label:hover {
+            background-color: #0056b3;
+        }
+
+    /* Estilo para el nombre del archivo */
+    .file-upload .file-name {
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+        word-break: break-word;
+    }
+#datos-registro textbox-fecha {
+    width: 100%;
+    max-width: 300px; /* Controla el tamaño máximo */
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}

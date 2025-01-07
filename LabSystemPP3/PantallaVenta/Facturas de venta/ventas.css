@@ -1,0 +1,343 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 350px;
+    background-color: #2c3e50;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+    .menu a, .menu asp\:HyperLink {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+        .menu a:hover, .menu asp\:HyperLink:hover {
+            background-color: #34495e;
+        }
+
+        .menu a:active, .menu asp\:HyperLink:active {
+            background-color: #1abc9c;
+            color: white;
+        }
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logout-container {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-logout {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+    .btn-logout:hover {
+        background-color: #c9302c;
+    }
+
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu a:hover {
+    background-color: #1abc9c;
+    transform: translateY(-3px);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.titulo {
+    background: linear-gradient(90deg, #3498db, #1abc9c);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+.titulo:hover {
+    color: #1abc9c;
+    transition: color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+/*---------------------- centro ----------------------------*/
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e3b4e;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.contenido-central {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.contenido-central {
+    width: 100%;
+    max-width: 1600px;
+    height: 1300px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Títulos */
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Inp {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .search-button:hover {
+        background-color: #218838;
+    }
+
+/* Estilos para las grillas */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.lista {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .lista th, .lista td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .lista th {
+        background-color: #f1f1f1;
+    }
+
+    .lista tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .lista tr:hover {
+        background-color: #d8e6f3;
+    }
+
+/* Botones dentro de las grillas */
+img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.add-button, .btn-confirm, .btn-cancel, .btn-delete, .btn-sell, .btn-modify {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+    .add-button:hover, .btn-confirm:hover, .btn-cancel:hover, .btn-delete:hover, .btn-sell:hover, .btn-modify:hover {
+        background-color: #0056b3;
+    }
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .grid-container {
+        flex-direction: column;
+    }
+
+    .Inp {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+}
+
+.invisible {
+    opacity: 0; /* El div es completamente transparente */
+    position: relative; /* Mantiene su espacio y permite que otros elementos se pongan encima */
+    z-index: 1;
+    visibility: hidden;
+}
+
+
+.contenido-central {
+    width: 100%;
+    max-width: 1600px;
+    height: 1300px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contenido-central {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contenido-central {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}

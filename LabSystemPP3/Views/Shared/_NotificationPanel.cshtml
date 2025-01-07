@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "_NotificationPanel";
+
+    @if (TempData["notification"] != null)
+    {
+        @Html.Raw(TempData["notification"])
+    }
+}
+
+<h2>_NotificationPanel</h2>
+

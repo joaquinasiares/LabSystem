@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|c:\\users\\user\\desktop\\pp3\\labsystempp3\\pantallacliente\\gestorclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallacliente\\gestorclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallacompra\\gestorcompra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallacompra\\gestorcompra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallacompra\\compras.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallacompra\\compras.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallaproductos\\productoestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallaproductos\\productoestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallaproductos\\gestorproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallaproductos\\gestorproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallaproveedores\\proveedorestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallaproveedores\\proveedorestilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallaproveedores\\gestorproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallaproveedores\\gestorproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallausuarios\\gestorusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallausuarios\\gestorusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallacliente\\ventanamodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallacliente\\ventanamodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\pantallausuarios\\ventanamodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F486B54-030D-4E37-9C57-6CD375CE1573}|LabSystemPP3.csproj|solutionrelative:pantallausuarios\\ventanamodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorClientes.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCliente\\GestorClientes.aspx",
+              "RelativeDocumentMoniker": "PantallaCliente\\GestorClientes.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCliente\\GestorClientes.aspx",
+              "RelativeToolTip": "PantallaCliente\\GestorClientes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-18T15:47:42.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Compras.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCompra\\Compras.css",
+              "RelativeDocumentMoniker": "PantallaCompra\\Compras.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCompra\\Compras.css",
+              "RelativeToolTip": "PantallaCompra\\Compras.css",
+              "ViewState": "AgIAAH0BAAAAAAAAAAAAAIsBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-18T15:41:35.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestorCompra.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCompra\\GestorCompra.aspx",
+              "RelativeDocumentMoniker": "PantallaCompra\\GestorCompra.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCompra\\GestorCompra.aspx",
+              "RelativeToolTip": "PantallaCompra\\GestorCompra.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-18T15:41:01.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestorProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProductos\\GestorProductos.aspx",
+              "RelativeDocumentMoniker": "PantallaProductos\\GestorProductos.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProductos\\GestorProductos.aspx",
+              "RelativeToolTip": "PantallaProductos\\GestorProductos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-17T15:19:34.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoEstilos.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProductos\\ProductoEstilos.css",
+              "RelativeDocumentMoniker": "PantallaProductos\\ProductoEstilos.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProductos\\ProductoEstilos.css",
+              "RelativeToolTip": "PantallaProductos\\ProductoEstilos.css",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAACgBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-16T19:38:11.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VentanaModal.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaUsuarios\\VentanaModal.css",
+              "RelativeDocumentMoniker": "PantallaUsuarios\\VentanaModal.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaUsuarios\\VentanaModal.css",
+              "RelativeToolTip": "PantallaUsuarios\\VentanaModal.css",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAO0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-18T14:44:13.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GestorUsuario.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaUsuarios\\GestorUsuario.aspx",
+              "RelativeDocumentMoniker": "PantallaUsuarios\\GestorUsuario.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaUsuarios\\GestorUsuario.aspx",
+              "RelativeToolTip": "PantallaUsuarios\\GestorUsuario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-18T14:37:32.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GestorProveedores.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProveedores\\GestorProveedores.aspx",
+              "RelativeDocumentMoniker": "PantallaProveedores\\GestorProveedores.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProveedores\\GestorProveedores.aspx",
+              "RelativeToolTip": "PantallaProveedores\\GestorProveedores.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-17T15:17:34.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProveedorEstilos.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProveedores\\ProveedorEstilos.css",
+              "RelativeDocumentMoniker": "PantallaProveedores\\ProveedorEstilos.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaProveedores\\ProveedorEstilos.css",
+              "RelativeToolTip": "PantallaProveedores\\ProveedorEstilos.css",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAAN0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-17T15:17:26.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VentanaModal.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCliente\\VentanaModal.css",
+              "RelativeDocumentMoniker": "PantallaCliente\\VentanaModal.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\pp3\\LabSystemPP3\\PantallaCliente\\VentanaModal.css",
+              "RelativeToolTip": "PantallaCliente\\VentanaModal.css",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAOsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-15T03:21:34.2Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
